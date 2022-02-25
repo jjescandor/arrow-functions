@@ -113,7 +113,7 @@ let sum = function (a, b, c, d) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sum(1, 2, 3, 4));
+console.log(sum(1, 2, 3, 4));
 
 
 let objectLit = function () {
@@ -125,7 +125,7 @@ let objectLit = function () {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+console.log(objectLit());
 
 
 let sumAndProduct = function (a, b) {
@@ -135,7 +135,7 @@ let sumAndProduct = function (a, b) {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+console.log(sumAndProduct(3, 9));
 
 
 let message = function (name) {
