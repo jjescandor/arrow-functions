@@ -108,42 +108,36 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 
 
 
-let sum = function (a, b, c, d) {
-  return a + b + c + d;
-};
+let sum = (a, b, c, d) => a + b + c + d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sum(1, 2, 3, 4));
 
 
-let objectLit = function () {
-  return {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 'value3',
-  };
-};
+let objectLit = () => ({
+  key1: 'value1',
+  key2: 'value2',
+  key3: 'value3',
+});
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(objectLit());
 
 
-let sumAndProduct = function (a, b) {
+let sumAndProduct = (a, b) => {
   let sum = a + b;
   let product = a * b;
-  return [sum, product];
+  return [sum, product]
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sumAndProduct(3, 9));
 
 
-let message = function (name) {
-  return `Hello, ${name}!`;
-};
+let message = (name) => `Hello, ${name}!`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+console.log(message('Allie'));
 
 
 let Student = function (name, age, hometown) {
@@ -156,19 +150,19 @@ let joe = new Student('Joe', 'Schmoe', 100);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this code to break!
-// console.log(joe);
+console.log(joe);
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
 
 
-Student.prototype.greeting = function () {
+/*Student.prototype.greeting = function () {
   return `Hi, my name is ${this.name}`;
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-// console.log(joe.greeting());
+console.log(joe.greeting());
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
@@ -204,3 +198,4 @@ Student.prototype.scopeArrow = () => console.log(this);
 //
 // 3. Explain why "this" is different when an arrow function is used.
 //
+*/
